@@ -195,3 +195,27 @@ main section{
 .next-target-item{
     max-width: 900px;
 }
+
+/* Support Section Styles */
+.support{
+    background-image: linear-gradient(rgba(13, 19, 33, 0.237), rgba(13, 19, 33, 0.456)), url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.support form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.support form textarea{
+    width: 540px;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
